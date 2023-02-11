@@ -1,0 +1,12 @@
+SSID: POCO X3
+Password: ISHANMEKHERJEE11
+SSID: dlink
+Password: kamalini
+SSID: Moto E3 POWER 2220
+Password: None
+SSID: Galaxy M113657
+Password: chunkubala
+SSID: realme 3
+Password: ISHANMEKHERJEE11
+SSID: soujanyamullick
+Password: 87654321
