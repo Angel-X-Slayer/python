@@ -17,7 +17,7 @@ def is_attack(i, j):
 
 def N_queen(n):
     #if n is 0, solution found
-    if n==0:
+    if n<0:
         print("enter legit value")
         return True
     for i in range(0,N):
