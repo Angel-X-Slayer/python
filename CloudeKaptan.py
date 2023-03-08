@@ -6,5 +6,4 @@ for i in k:
 for i in range(len(str)):
     if str[i] == " ":
         k.insert(i, " ")
-
 print("".join(k))
