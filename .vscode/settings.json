@@ -1,5 +1,9 @@
 {
     "editor.fontFamily": "Consolas, 'Courier New', monospace",
-    "editor.fontLigatures": false
+    "editor.fontLigatures": false,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "python.formatting.provider": "none"
 
 }

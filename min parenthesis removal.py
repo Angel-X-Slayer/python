@@ -18,14 +18,14 @@ if first > second:
     for i in range(k):
         for j in range(len(inp)):
             if inp[j] == "(":
-                inp.pop(i)
+                inp.remove(inp[j-len(inp)])
                 break
 elif second > first:
     k = second-first
     for i in range(k):
         for j in range(len(inp)):
             if inp[j] == ")":
-                inp.remove(inp[j])
+                inp.remove(inp[j-len(inp)])
                 break
 else:
     pass
