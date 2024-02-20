@@ -38,7 +38,7 @@ def isSafe(n, row, col):
     return True
 
 
-def nqueen(n, result, row, col):
+def nqueen(n, result, col):
     if n == col:
         print(result)
         return
@@ -46,12 +46,11 @@ def nqueen(n, result, row, col):
         for i in range(n):
             if isSafe(n, i, col):
                 result[i][col] = "Q"
-                nqueen(n, result, i, col+1)
-                result[i][col] = "."
-            else:
-                pass
+                # Going in the next columbn t oplace the queen
+                nqueen(n, result, col+1)
+                result[i][col] = "."  # Backtracking stage
 
 
 n = int(input("enter the value of n:"))
 result = [['.'] * n for _ in range(n)]
-nqueen(n, result, 0, 0)
+nqueen(n, result, 0)
